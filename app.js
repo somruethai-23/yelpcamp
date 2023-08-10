@@ -20,7 +20,7 @@ const usersRoutes = require('./routes/users');
 const campgroundRoutes = require('./routes/campground');
 const reviewRoutes = require('./routes/review');
 const dbUrl = process.env.DB_URL;
-const MongoStore = require('connect-mongo')(session);
+const MongoStore = require('connect-mongo');
 // 'mongodb://localhost:27017/
 
 main().catch(err => console.log(err));
