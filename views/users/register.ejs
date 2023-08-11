@@ -1,11 +1,12 @@
 <% layout('../layout/boilerplate') %>
-<main>
-    <div class="main-content container">
-        <div class="logo">
-            <a class="navbar-link" href="/campgrounds" style="color:black;"><i class="fas fa-fire-alt" style="color: #e85d04;"></i>  YelpCamp</a>
+<div class="card mt-4 mb-4" style="box-shadow: #00000029 0px 1px 4px;">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="https://images.unsplash.com/photo-1539183204366-63a0589187ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" class="img-fluid" alt="...">
         </div>
-        <div class="signin-name">
-            <h2>Sign Up</h2>
+        <div class="col-md-6 mt-3">
+            <div class="container-fluid">
+                <h2 class="mb-3 d-flex justify-content-center">Sign Up</h2>
         </div>
         <form action="/register" method="POST" class="validated-form" novalidate>
             <div class="mb-3">
@@ -40,9 +41,6 @@
                 Don't have an account? <a href="/login">Sign-in here</a>
             </p>
         </div>
+        </div>
     </div>
-
-    <div class="img">
-        <img src="https://images.unsplash.com/photo-1539183204366-63a0589187ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="" />
-    </div>
-</main>
+</div>
